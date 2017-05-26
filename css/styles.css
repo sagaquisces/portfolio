@@ -12,10 +12,9 @@ img {
   margin-bottom: 0;
   padding-left: 15px;
   border-radius: 0;
-  background-image: url("../img/black_pattern.png");
+  background-size: cover;
   background-repeat: repeat;
-  background-color: black;
-  color: white;
+  background-color: #011223;
 }
 
 .sideright {
@@ -27,9 +26,18 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: table;
   margin: auto;
-  vertical-align: center;
 }
 
 .sideleft {
   padding-top: 30px;
+}
+
+footer, .jumbotron {
+  color: white;
+  background-image: url("../img/music_score_wavy.png");
+}
+
+footer {
+  background-color: #222222;
+  padding: 15px;
 }
