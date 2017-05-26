@@ -4,6 +4,9 @@ img {
   max-width: 100%;
  }
 
+.row.content {
+  background-color: lightgrey;
+}
 
 .jumbotron {
   margin-bottom: 0;
@@ -11,4 +14,9 @@ img {
   border-radius: 0;
   background-color: black;
   color: white;
+}
+
+.sideright {
+  padding-left: 0;
+  padding-right:0;
 }
