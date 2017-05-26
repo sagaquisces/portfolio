@@ -41,3 +41,8 @@ footer {
   background-color: #222222;
   padding: 15px;
 }
+
+.romanize {
+  font-size: 200%;
+  font-family: ‘Times New Roman’, Times, serif;
+}
